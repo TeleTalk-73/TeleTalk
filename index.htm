@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeleTalk - Online Speech-Language Pathology Consultation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            color: #4682b4;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TeleTalk</h1>
+        <p>Online Speech-Language Pathology Consultation</p>
+    </header>
+
+    <nav>
+        <a href="#about">About the Website</a>
+        <a href="#services">Services</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About the Website</h2>
+            <p>Welcome to TeleTalk, your trusted platform for online speech-language pathology consultations. Our mission is to provide convenient, professional, and personalized speech therapy services to clients from the comfort of their homes.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Speech Therapy Assessments</li>
+                <li>Individualized Therapy Plans</li>
+                <li>Parent and Caregiver Training</li>
+                <li>Follow-up Consultations</li>
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <p>To schedule a consultation, please contact us through the form below or call us at [Your Phone Number]. We offer flexible scheduling options to accommodate your needs.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TeleTalk. All rights reserved.</p>
+    </footer>
+</body>
+</html>
